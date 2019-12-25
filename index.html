@@ -10,7 +10,7 @@
   <script src="https://sdk.scdn.co/spotify-player.js"></script>
   <script>
     window.onSpotifyWebPlaybackSDKReady = () => {
-      const token = 'ACCESSTOKEN';
+      const token = 'BQBgFkVdUjFKrmJowofQBZUrniNkDNfc8C2YiFuE603Ed5CuGa-ykxKT7i6ac8MT3Gz98oz1-KtvUmKP6_Xj4RyhnmEk6XM5AtdD2FjP99KQxqMgszaw-ul6iBgiI-hC3EixH4zMo75kBuhe_Cuk67uddozcmZqRcdUPodVRl5rFh5pcTMa2vfg';
       const player = new Spotify.Player({
         name: 'Web Playback SDK Quick Start Player',
         getOAuthToken: cb => { cb(token); }
